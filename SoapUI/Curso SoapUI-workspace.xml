@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-workspace name="Curso SoapUI" soapui-version="5.7.0" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings/>
+  <con:project name="Vacio">C:/Cursos/Testing/BDD20230522/SoapUI/Vacio-soapui-project.xml</con:project>
+  <con:project name="Calculadora">C:/Cursos/Testing/BDD20230522/SoapUI/Calculadora-soapui-project.xml</con:project>
+</con:soapui-workspace>

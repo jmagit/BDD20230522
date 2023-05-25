@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="1187bbb4-e383-46b6-b52d-726ee55afc9b" activeEnvironment="Default" name="Vacio" resourceRoot="" soapui-version="5.7.0" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="ProjectSettings@shadowPassword"/></con:settings><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
