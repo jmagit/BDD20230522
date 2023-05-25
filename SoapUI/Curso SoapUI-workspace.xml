@@ -3,4 +3,7 @@
   <con:settings/>
   <con:project name="Vacio">C:/Cursos/Testing/BDD20230522/SoapUI/Vacio-soapui-project.xml</con:project>
   <con:project name="Calculadora">C:/Cursos/Testing/BDD20230522/SoapUI/Calculadora-soapui-project.xml</con:project>
+  <con:project name="EjemplosRest">C:/Cursos/Testing/BDD20230522/SoapUI/EjemplosRest-soapui-project.xml</con:project>
+  <con:project name="Web4Testing">C:/Cursos/Testing/BDD20230522/SoapUI/Web4Testing-soapui-project.xml</con:project>
+  <con:project name="Catastro">C:/Cursos/Testing/BDD20230522/SoapUI/Catastro-soapui-project.xml</con:project>
 </con:soapui-workspace>
