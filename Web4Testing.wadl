@@ -8,7 +8,7 @@
         <doc xml:lang="en" title="GET">Obtener estado de sesión</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -34,49 +34,49 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear volumen</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -93,97 +93,97 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar volumen</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar volumen</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PATCH" id="PATCH">
         <doc xml:lang="en" title="PATCH">Actualizar parcialmente volumen</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -209,49 +209,49 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear articulo</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -268,97 +268,97 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar articulo</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar articulo</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PATCH" id="PATCH">
         <doc xml:lang="en" title="PATCH">Actualizar parcialmente articulo</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -384,49 +384,49 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear contacto</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -443,97 +443,97 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar contacto</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar contacto</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PATCH" id="PATCH">
         <doc xml:lang="en" title="PATCH">Actualizar parcialmente contacto</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -559,49 +559,49 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear libro</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -618,97 +618,97 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar libro</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar libro</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PATCH" id="PATCH">
         <doc xml:lang="en" title="PATCH">Actualizar parcialmente libro</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -720,35 +720,35 @@
           <param name="cookie" type="xs:string" required="false" default="" style="query" xmlns:xs="http://www.w3.org/2001/XMLSchema">
             <doc xml:lang="en" title="cookie Parameter">true para que genere y envíe la cookie</doc>
           </param>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
           <representation mediaType="application/x-www-form-urlencoded"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
           <representation mediaType="application/x-www-form-urlencoded"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
           <representation mediaType="application/x-www-form-urlencoded"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
           <representation mediaType="application/x-www-form-urlencoded"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -758,10 +758,10 @@
         <doc xml:lang="en" title="POST">Cerrar sesión</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -787,13 +787,13 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -810,16 +810,16 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -845,49 +845,49 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear pelicula</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -904,97 +904,97 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar pelicula</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar pelicula</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PATCH" id="PATCH">
         <doc xml:lang="en" title="PATCH">Actualizar parcialmente pelicula</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1020,36 +1020,36 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear persona</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1066,58 +1066,58 @@
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar persona</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar persona</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1127,47 +1127,47 @@
         <doc xml:lang="en" title="GET">Consultar su usuario</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Registrar un nuevo usuario</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Modificar el nombre de su usuario</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1177,24 +1177,24 @@
         <doc xml:lang="en" title="PUT">Es necesario conocer la contraseña actual antes de cambiarla
 Cambiar su contraseña</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1220,36 +1220,36 @@ Cambiar su contraseña</doc>
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear tarjeta</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1266,42 +1266,42 @@ Cambiar su contraseña</doc>
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar tarjeta</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1327,49 +1327,49 @@ Cambiar su contraseña</doc>
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="POST" id="POST">
         <doc xml:lang="en" title="POST">Crear vehiculo</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="201">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
@@ -1386,97 +1386,97 @@ Cambiar su contraseña</doc>
           </param>
         </request>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PUT" id="PUT">
         <doc xml:lang="en" title="PUT">Reemplazar vehiculo</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="DELETE" id="DELETE">
         <doc xml:lang="en" title="DELETE">Borrar vehiculo</doc>
         <request/>
         <response status="204">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="PATCH" id="PATCH">
         <doc xml:lang="en" title="PATCH">Actualizar parcialmente vehiculo</doc>
         <request>
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </request>
         <response status="">
-          <representation mediaType="application/json"/>
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="400">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="404">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
       <method name="OPTIONS" id="OPTIONS">
         <doc xml:lang="en" title="OPTIONS">Sondeo CORS</doc>
         <request/>
         <response status="200">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="401">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
         <response status="403">
-          <representation mediaType="application/json"/>
+          <representation mediaType="application/json; charset=utf-8"/>
         </response>
       </method>
     </resource>
