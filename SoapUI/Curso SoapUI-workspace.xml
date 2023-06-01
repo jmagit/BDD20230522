@@ -6,6 +6,6 @@
   <con:project name="EjemplosRest">C:/Cursos/Testing/BDD20230522/SoapUI/EjemplosRest-soapui-project.xml</con:project>
   <con:project name="Catastro">C:/Cursos/Testing/BDD20230522/SoapUI/Catastro-soapui-project.xml</con:project>
   <con:project name="Web4Testing">C:/Cursos/Testing/BDD20230522/SoapUI/Web4Testing-soapui-project.xml</con:project>
-  <con:project status="CLOSED" name="Swagger Petstore">C:/Cursos/Testing/BDD20230522/SoapUI/Swagger-Petstore-soapui-project.xml</con:project>
+  <con:project name="Swagger Petstore">C:/Cursos/Testing/BDD20230522/SoapUI/Swagger-Petstore-soapui-project.xml</con:project>
   <con:collectInfoForSupport>false</con:collectInfoForSupport>
 </con:soapui-workspace>
