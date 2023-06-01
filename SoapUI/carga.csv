@@ -1,0 +1,5 @@
+Test Step,min,max,avg,last,cnt,tps,bytes,bps,err,rat
+Lista los contactos,2,175,12.37,3,3591,119.32,3903417,129707,258,7
+Modifica el contacto,3,127,10.06,3,3591,119.32,869022,28876,257,7
+Cosulta el contacto,1,156,11.47,2,3591,119.32,869022,28876,255,7
+TestCase:,6,458,33.91,8,3591,119.32,5641461,187461,770,21
