@@ -1,0 +1,9 @@
+TestCase [OK] started at 2023-06-01 18:55:21.207
+TestCase [OK] finished with status [FINISHED], time taken = 188
+Step 1 [Add OK] OK: took 188 ms
+TestCase [Positivo con negativo] started at 2023-06-01 18:55:21.396
+TestCase [Positivo con negativo] finished with status [FINISHED], time taken = 181
+Step 1 [Add - P&N] OK: took 181 ms
+TestCase [KO] started at 2023-06-01 18:55:21.579
+TestCase [KO] finished with status [FINISHED], time taken = 187
+Step 1 [Add Real con entero] OK: took 187 ms

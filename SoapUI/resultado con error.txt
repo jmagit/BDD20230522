@@ -1,0 +1,61 @@
+TestSuite [Sumas] started at 2023-06-01 18:56:29
+TestCase [OK] started at 2023-06-01 18:56:29.378
+TestCase [OK] finished with status [FINISHED], time taken = 337
+Step 1 [Add OK] OK: took 337 ms
+TestCase [Positivo con negativo] started at 2023-06-01 18:56:29.720
+TestCase [Positivo con negativo] finished with status [FINISHED], time taken = 182
+Step 1 [Add - P&N] OK: took 182 ms
+TestCase [KO] started at 2023-06-01 18:56:29.906
+TestCase [KO] finished with status [FINISHED], time taken = 174
+Step 1 [Add Real con entero] OK: took 174 ms
+TestSuite [Sumas] finished with status [FINISHED], time taken = 711
+TestSuite [Calculos] started at 2023-06-01 18:56:30
+TestCase [Secuencia] started at 2023-06-01 18:56:30.089
+Step 1 [Variables] OK: took 1 ms
+ -> Loaded 3 properties from [C:/Cursos/Testing/BDD20230522/SoapUI/secuencia.properties]
+Step 2 [Sumar 2] OK: took 169 ms
+Step 3 [Resultado suma] OK: took 1 ms
+ -> Performed transfer [Copia resultado]
+Step 4 [Restar 1] OK: took 171 ms
+Step 5 [Resultado resta] OK: took 1 ms
+ -> Performed transfer [Copia resultado]
+Step 6 [Espera 5s] OK: took 999 ms
+Step 7 [Sigue restando] OK: took 6 ms
+ -> Matched condition [Restar 1], transferring to [Restar 1]
+Step 8 [Restar 1] OK: took 169 ms
+Step 9 [Resultado resta] OK: took 1 ms
+ -> Performed transfer [Copia resultado]
+Step 10 [Espera 5s] OK: took 1000 ms
+Step 11 [Sigue restando] OK: took 4 ms
+ -> Matched condition [Restar 1], transferring to [Restar 1]
+Step 12 [Restar 1] OK: took 169 ms
+Step 13 [Resultado resta] OK: took 1 ms
+ -> Performed transfer [Copia resultado]
+Step 14 [Espera 5s] OK: took 999 ms
+Step 15 [Sigue restando] OK: took 5 ms
+ -> Matched condition [Restar 1], transferring to [Restar 1]
+Step 16 [Restar 1] OK: took 173 ms
+Step 17 [Resultado resta] OK: took 2 ms
+ -> Performed transfer [Copia resultado]
+Step 18 [Espera 5s] OK: took 1000 ms
+Step 19 [Sigue restando] OK: took 6 ms
+ -> Matched condition [Fin del proceso], transferring to [Fin del proceso]
+Step 20 [Fin del proceso] OK: took 0 ms
+TestCase [Secuencia] failed [Cancelling due to failed test step], time taken = 9301
+Step 21 [Acepta algo] FAILED: took 4424 ms
+TestCase [Callback] started at 2023-06-01 18:56:39.413
+Step 1 [SOAP Request] OK: took 179 ms
+TestCase [Callback] failed [TestCase timed out:java.lang.NullPointerException: Cannot invoke "com.eviware.soapui.model.ModelItem.getSettings()" because "modelItem" is null], time taken = 4996
+TestSuite [Calculos] failed [null], time taken = 14330
+TestSuite [Divisiones] started at 2023-06-01 18:56:44
+Step 1 [SOAP Mock Response] FAILED: took 4817 ms
+TestCase [OK] started at 2023-06-01 18:56:44.422
+Step 1 [Divide Request] OK: took 175 ms
+TestCase [OK] finished with status [FINISHED], time taken = 175
+TestCase [KO Divide by 0] started at 2023-06-01 18:56:44.601
+TestCase [KO Divide by 0] finished with status [FINISHED], time taken = 179
+Step 1 [Divide Request] OK: took 179 ms
+TestCase [KO Reales] started at 2023-06-01 18:56:44.781
+TestCase [KO Reales] finished with status [FINISHED], time taken = 177
+Step 1 [Divide Request] OK: took 177 ms
+TestSuite [Divisiones] finished with status [FINISHED], time taken = 542
